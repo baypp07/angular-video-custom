@@ -27,12 +27,8 @@
 }
 
 h1 span {
-  font-size: 90px;
+  font-size: 50px;
 }
-.l1,
-.l3 {
+.l1 {
   font-family: orelo;
-}
-.l2 {
-  font-family: visuelt-regular;
 }

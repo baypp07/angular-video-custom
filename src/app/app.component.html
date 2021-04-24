@@ -1,26 +1,17 @@
 <section (click)="toggleVideo(videoplayer)" class="section1 presentation">
   <div container-presentation>
     <div id="instructions">
-      <video
-        id="prez-KG"
-        #videoPlayer
-        (ended)="videoEnd()"
-        [ngClass]="{'hidden-video':this.showVideo == false}"
-      >
-        <!-- width="600" height="400"  -->
-        <source
-          src="https://www.videvo.net/videvo_files/converted/2018_07/videos/180607_A_101.mp466981_jw.mp4"
-          type="video/mp4"
-        />
+      <video id="prez-KG" #videoPlayer [ngClass]="{'hidden-video':this.showVideo == false}">
+        <!-- (ended)="videoEnd()" -->
+        <source src="https://www.videvo.net/videvo_files/converted/2018_07/videos/180607_A_101.mp466981_jw.mp4"
+          type="video/mp4" />
       </video>
     </div>
 
     <div *ngIf="show">
       <div class="main-presentation">
         <h1>
-          <span class="l1"> Creative </span>
-          <span class="l2"> Digital </span>
-          <span class="l3"> Agency </span>
+          <span class="l1"> Please click to play </span>
         </h1>
       </div>
     </div>

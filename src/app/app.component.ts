@@ -10,6 +10,7 @@ export class AppComponent  {
   // public startedPlay:boolean = false;
   public show:boolean = true;
   public showVideo:boolean = false;
+  
   isEnded:boolean=false;
 
     toggleVideo(videoplayer){
