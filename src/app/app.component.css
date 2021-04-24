@@ -1,3 +1,38 @@
-p {
-  font-family: Lato;
+/*  presentation */
+.presentation {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+#prez-KG {
+  width: 100%;
+  height: auto;
+}
+.show-video {
+  opacity: 1;
+}
+.hidden-video {
+  opacity: 0;
+}
+
+.main-presentation {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 55%;
+  /* left: 25%;
+     margin-left:20%;
+     line-height: 20px; */
+  /* transform: translate(-50%, -50%); */
+}
+
+h1 span {
+  font-size: 90px;
+}
+.l1,
+.l3 {
+  font-family: orelo;
+}
+.l2 {
+  font-family: visuelt-regular;
 }
